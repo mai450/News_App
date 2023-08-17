@@ -216,12 +216,14 @@ Widget NavigatButton({
   required String icon,
   required String text,
 }) {
-  return ElevatedButton(
+  return FloatingActionButton(
       onPressed: () {},
-      style: ElevatedButton.styleFrom(
-        backgroundColor: Colors.white,
-        elevation: 0,
-      ),
+      // style: ElevatedButton.styleFrom(
+      //   backgroundColor: Colors.white,
+      //   elevation: 0,
+      // ),
+      backgroundColor: Colors.white,
+      elevation: 0,
       child: Column(
         children: [
           SvgPicture.asset(icon),

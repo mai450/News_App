@@ -118,6 +118,5 @@ class NotificationScreen extends StatelessWidget {
         ),
       ),
     );
-    ;
   }
 }
